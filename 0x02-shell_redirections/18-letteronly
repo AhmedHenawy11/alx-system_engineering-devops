@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -f /etc/ssh/sshd_config
+grep "^[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]" /etc/ssh/sshd_config
