@@ -2,5 +2,5 @@
 # This script is displaying "Holberton School" 10 times
 # shellcheck disable=SC2034
 for i in {1..10}; do
-    echo "Holberton School"
+	echo "Holberton School"
 done
