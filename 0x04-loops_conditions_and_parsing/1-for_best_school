@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times
-# shellcheck disable=SC2034
-for i in {1..10}; do
-    echo "Holberton School"
+# This script is displaying "Best School" 10 times
+
+for ((i = 1; i <= 10; i++)); do
+  echo "Best School"
 done
