@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this code listens on poer 98 on localhost
+
+nc -l localhost 98
