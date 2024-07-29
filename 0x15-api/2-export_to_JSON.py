@@ -32,7 +32,7 @@ def main():
             }
                 for task in total_tasks]
         }
-        json.dump(data,file)
+        json.dump(data, file)
 
 
 if __name__ == "__main__":
