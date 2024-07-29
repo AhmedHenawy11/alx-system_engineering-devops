@@ -27,7 +27,7 @@ def main():
             task_status = task["completed"]
             task_title = task["title"]
             data = f'"{user_id}","{username}","{task_status}","{task_title}"'
-            file.write(data)
+            file.write(data + '\n')
 
 
 if __name__ == "__main__":
