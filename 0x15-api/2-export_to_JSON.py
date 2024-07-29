@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module  fetching user data and tasks from an API
+This module fetching user data and tasks from an API
 and storing it in a JSON file.
 
 It includes functionalities for:
