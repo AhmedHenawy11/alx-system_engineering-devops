@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""a Python script that, using this REST API, for a given employee ID, returns information about user"""
+"""using this REST API & returns information about user tasks"""
 import requests
 import sys
 
@@ -21,7 +21,8 @@ def main():
     done_tasks_num = len(done_tasks)
 
     # Print the result in format
-    print(f"Employee {user_name} is done with tasks({done_tasks_num}/{total_task_num}):")
+    score = f"{done_tasks_num}/{total_task_num}"
+    print(f"Employee {user_name} is done with tasks({score}):")
     for task in done_tasks:
         print("\t " + task.get("title"))
 
