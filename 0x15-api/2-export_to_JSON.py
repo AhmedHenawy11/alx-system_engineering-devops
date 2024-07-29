@@ -1,8 +1,19 @@
 #!/usr/bin/python3
-""" module doc """
-import json
+"""
+This module provides functionalities for X.
+
+It includes functions for:
+- Feature A
+- Feature B
+- Feature C
+
+Usage:
+    import my_module
+    result = my_module.some_function()
+"""
 import requests
 import sys
+import json
 
 
 def main():
