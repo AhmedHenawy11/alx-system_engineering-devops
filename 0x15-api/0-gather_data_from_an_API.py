@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""using this REST API & returns information about user tasks"""
+"""using this REST API & returns data about user tasks"""
 import requests
 import sys
 
