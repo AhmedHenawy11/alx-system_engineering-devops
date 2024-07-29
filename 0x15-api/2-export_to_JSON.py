@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module provides functionalities for fetching user data and tasks from an API
+This module  fetching user data and tasks from an API
 and storing it in a JSON file.
 
 It includes functionalities for:
@@ -11,10 +11,9 @@ It includes functionalities for:
 Usage:
     python my_script.py <user_id>
 """
-
+import json
 import requests
 import sys
-import json
 
 
 def main():
